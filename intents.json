@@ -41,6 +41,66 @@
         "how many semesters one should study in a year"
       ],
       "responses": ["There are two semesters in a year."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how can I apply", "what is the admission process", "how to get admission", "requirements for admission"],
+      "responses": [
+        "You can apply online through our college website or visit the admission office.",
+        "Admission requires filling out the application form, submitting necessary documents, and attending an interview."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["what is the fee structure", "tell me about fees", "how much does the course cost"],
+      "responses": [
+        "Our fee structure depends on the course. Please visit our official fee page or contact the administration office."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["do you offer scholarships", "is there any financial aid", "scholarship options"],
+      "responses": [
+        "Yes! We provide scholarships based on academic performance and entrance exam results.",
+        "Scholarships are available for deserving students. You can apply during the admission process."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["what facilities are available", "do you have library", "campus facilities", "hostel facilities"],
+      "responses": [
+        "We offer library, computer labs, sports facilities, cafeteria, and hostel services for students.",
+        "Our college provides modern labs, a digital library, and comfortable hostel accommodations."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["tell me about faculty", "teachers in college", "who are the professors"],
+      "responses": [
+        "Our faculty includes experienced professors and lecturers with strong academic and industry backgrounds.",
+        "We have highly qualified faculty members who are dedicated to providing quality education."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement opportunities", "do you provide internships", "career support", "job after college"],
+      "responses": [
+        "Yes, we have a dedicated placement cell that helps students get internships and job opportunities.",
+        "Many of our graduates are placed in reputed companies through campus recruitment."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["how can I contact college", "contact details", "college phone number", "email address"],
+      "responses": [
+        "You can contact us at +977-61-123456 or email us at info@informaticscollege.edu.np.",
+        "For inquiries, visit our official website or reach out via phone or email."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "take care"],
+      "responses": ["Goodbye! Have a nice day!", "See you soon!", "Take care!"]
     }
   ]
 }

@@ -2,11 +2,13 @@ import json
 import random
 import numpy as np
 import nltk
+import pickle
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers.legacy import SGD  # <- Legacy optimizer
 
+# Download required nltk data
 nltk.download('punkt')
 nltk.download('wordnet')
 
@@ -72,6 +74,7 @@ model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # ========== Save ==========
 model.save('chatbotmodel.h5')
+pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(classes, open('classes.pkl', 'wb'))
 
-print("✅ Model trained and saved as chatbotmodel.h5")
-# ========== Save Vocabulary ==========
+print("✅ Model, words.pkl, and classes.pkl saved successfully!")
